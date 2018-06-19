@@ -6,12 +6,6 @@
 	<!--  App Description  -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="css/owl.transitions.css"/>
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
 
@@ -273,6 +267,20 @@
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s"> <strong>Pixelhint</strong>
 	</footer>
 	<!--  End Footer Section  -->
+
+	<script type="text/javascript">
+		const loadStyleSheet = src => {
+			document.createStylesheet(src)
+		}
+
+		window.onload = function() {
+			loadStyleSheet('css/bootstrap.css');
+			loadStyleSheet('css/owl.transitions.css');
+			loadStyleSheet('css/owl.carousel.css');
+			loadStyleSheet('css/animate.css');
+			loadStyleSheet('css/main.css');
+		}
+	</script>
 
 	<script defer type="text/javascript" src="js/jquery.js"></script>
 	<script defer type="text/javascript" src="js/ajaxchimp.js"></script>
