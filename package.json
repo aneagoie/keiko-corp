@@ -1,0 +1,29 @@
+{
+  "name": "keiko-corp",
+  "version": "1.0.0",
+  "description": "The greatest company ever created",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franjorub/keiko-corp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franjorub/keiko-corp/issues"
+  },
+  "homepage": "https://github.com/franjorub/keiko-corp#readme",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.3.1"
+  },
+  "devDependencies": {
+    "grunt-concat-css": "^0.3.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.4.0"
+  }
+}
