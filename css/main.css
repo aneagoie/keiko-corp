@@ -453,30 +453,6 @@ a.app_link{
 	-webkit-transition: all .2s linear;
 }
 
-.about .features_list ul li.camera_icon{
-	background: url('../img/icon1.png') no-repeat;
-	background-position: 0 15px;
-}
-
-.about .features_list ul li.video_icon{
-	background: url('../img/icon2.png') no-repeat;
-	background-position: 0 15px;
-}
-
-.about .features_list ul li.eye_icon{
-	background: url('../img/icon3.png') no-repeat;
-	background-position: 0 14px;
-}
-
-.about .features_list ul li.pic_icon{
-	background: url('../img/icon4.png') no-repeat;
-	background-position: 0 14px;
-}
-
-.about .features_list ul li.loc_icon{
-	background: url('../img/icon5.png') no-repeat;
-	background-position: 3px 13px;
-}
 
 .about .features_list ul li span{
 	display: inline-block;
