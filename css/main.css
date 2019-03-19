@@ -11,20 +11,6 @@
 
 }
 
-
-@font-face {
-    font-family: 'open_bold';
-    src: url('../fonts/opensans-bold.eot');
-    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-bold.woff') format('woff'),
-         url('../fonts/opensans-bold.ttf') format('truetype'),
-         url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
 @font-face {
     font-family: 'open_semibold';
     src: url('../fonts/opensans-semibold.eot');
@@ -36,11 +22,6 @@
     font-style: normal;
 
 }
-
-
-
-
-
 
 
 section, footer {
@@ -218,7 +199,7 @@ header .social li:first-child{
 
 .hero .caption h1{
 	color: #525252;
-	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: bold;
 	word-break: break-word;
@@ -418,7 +399,7 @@ a.app_link{
 
 .about .features_list h1{
 	color: #525151;
-	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: bold;
 	line-height: 46px;
