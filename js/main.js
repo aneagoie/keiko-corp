@@ -9,12 +9,12 @@ $(document).ready(function(){
 		if(section_pos){
 			$(window).scrollTo({top:section_pos.top, left:'0px'}, 1000);
 		}
-		
+
 	});
 
 	$('.app_link').click(function(e){
 		event.preventDefault();
-		$(window).scrollTo({top:$("#hero").position().top, left:'0px'}, 1000);		
+		$(window).scrollTo({top:$("#hero").position().top, left:'0px'}, 1000);
 	});
 
 
@@ -30,7 +30,7 @@ $(document).ready(function(){
 		$('header .burger_icon').toggleClass('active');
 	});
 
-	
+
 
 
 
@@ -47,23 +47,6 @@ $(document).ready(function(){
 	);
 	wow.init();
 
-
-
-
-
-
-
-
-	//parallax effect initialization
-	$('.hero').parallax("50%", 0.3);
-
-
-
-
-
-
-
-
 	//Nice scroll initialization
 	$("html").niceScroll({
 		scrollspeed: 50,
@@ -75,13 +58,6 @@ $(document).ready(function(){
 		cursorcolor : '#1f1f1f',
 		zindex : 999
 	});
-
-
-
-
-
-
-
 
 	//Testimonials slider initialization
 	$("#tslider").owlCarousel({
@@ -104,7 +80,7 @@ $(document).ready(function(){
 
 	//Mailchimp subscription form initialization
 	$('#submit_form').submit(function(){
-		$('#mc_submit').attr('disabled', 'disabled');		
+		$('#mc_submit').attr('disabled', 'disabled');
    		processing('icon', 'loading');
 	});
 
@@ -113,17 +89,17 @@ $(document).ready(function(){
 		$('#submit_form').ajaxChimp({
 		    callback: chimpResponce
 		});
-	}	
+	}
 
 	//Mail chimp callback function
 	function chimpResponce(resp) {
-   		if (resp.result === 'success') {   			
+   		if (resp.result === 'success') {
    			processing('loading', 'icon');
 			$('#mc_submit').removeAttr('disabled', 'disabled');
 	        $('#submit_form #mc-email').val('');
    			$('#error_msg').hide();
    			$('#success_msg').show();
-	    }else{		
+	    }else{
    			processing('loading', 'icon');
    			$('#success_msg').hide();
    			$('#error_msg').show();
@@ -144,7 +120,7 @@ $(document).ready(function(){
 
 	//Popup video
 	$('#play_video').click(function(e){
-		e.preventDefault();	
+		e.preventDefault();
 
 		var video_link = $(this).data('video');
 		video_link = '<iframe src="' + video_link + '" width="500" height="208" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
@@ -153,7 +129,7 @@ $(document).ready(function(){
 	});
 
 	$('.close_video').click(function(e){
-		e.preventDefault();	
+		e.preventDefault();
 
 		$('.about_video').fadeOut(200,function(){
 			$('iframe', this).remove();
