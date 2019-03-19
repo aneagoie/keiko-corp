@@ -7,34 +7,21 @@ $(document).ready(function(){
 		var section_pos = $(section).position();
 
 		if(section_pos){
-			$(window).scrollTo({top:section_pos.top, left:'0px'}, 1000);
+			window.scrollTo(0, section_pos.top);
 		}
 
 	});
 
 	$('.app_link').click(function(e){
 		event.preventDefault();
-		$(window).scrollTo({top:$("#hero").position().top, left:'0px'}, 1000);
+		window.scrollTo(0, $("#hero").position().top)
 	});
-
-
-
-
-
-
-
 
 	//Show & Hide menu on mobile
 	$('.burger_icon').click(function(){
 		$('header nav').toggleClass('show');
 		$('header .burger_icon').toggleClass('active');
 	});
-
-
-
-
-
-
 
 
 	//wow.js on scroll animations initialization
