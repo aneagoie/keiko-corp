@@ -1,0 +1,34 @@
+{
+  "name": "keiko-corp",
+  "version": "1.0.0",
+  "description": "The greatest company ever created",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html -p 8081",
+    "watch": "parcel watch index.html",
+    "clean": "rm -rf dist/ ",
+    "build": "parcel build index.html",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hantumobil/keiko-corp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hantumobil/keiko-corp/issues"
+  },
+  "homepage": "https://github.com/hantumobil/keiko-corp#readme",
+  "devDependencies": {
+    "imagemin": "^6.1.0",
+    "imagemin-webp": "^5.0.0",
+    "inline-critical": "^5.2.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.0"
+  }
+}

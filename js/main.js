@@ -1,3 +1,5 @@
+import {$, jQuery} from 'jquery';
+
 $(document).ready(function(){
 
 	//Navigation menu scrollTo
