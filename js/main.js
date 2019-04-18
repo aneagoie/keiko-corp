@@ -65,16 +65,16 @@ $(document).ready(function(){
 
 
 	//Nice scroll initialization
-	$("html").niceScroll({
-		scrollspeed: 50,
-		autohidemode : false,
-		cursorwidth : 8,
-		cursorborderradius: 8,
-		cursorborder : "0",
-		background : "rgba(48, 48, 48, .4)",
-		cursorcolor : '#1f1f1f',
-		zindex : 999
-	});
+	// $("html").niceScroll({
+	// 	scrollspeed: 50,
+	// 	autohidemode : false,
+	// 	cursorwidth : 8,
+	// 	cursorborderradius: 8,
+	// 	cursorborder : "0",
+	// 	background : "rgba(48, 48, 48, .4)",
+	// 	cursorcolor : '#1f1f1f',
+	// 	zindex : 999
+	// });
 
 
 
