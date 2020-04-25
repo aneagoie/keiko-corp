@@ -201,7 +201,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
+	background: url('../img/hero.webp') no-repeat fixed center center;
 	background-size: cover;
 }
 
