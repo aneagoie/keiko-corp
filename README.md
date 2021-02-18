@@ -1,2 +1,2 @@
 # keiko-corp
-The greatest company ever created by Bruno
+Test site created for practicing improving performance techniques
