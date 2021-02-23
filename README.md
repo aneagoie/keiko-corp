@@ -2,11 +2,22 @@
 Test site created for practicing improving performance techniques
 
 
-## Initial speed results:
+## Initial performance results:
 
-PageSpeed Insights:
-Mobile: 69/100, 
+### WebPageTest:
+Bytes In: **1461 KB** \
+Fully Loaded Time: **2.883s**
+
+### PageSpeed Insights:
+Mobile: 69/100, \
 Laptop: 85/100
 
-WebPageTest:
-Fully Loaded Time: 2.883s
+## End performace results:
+
+### WebPageTest:
+Bytes In: **419 KB** \
+Fully Loaded Time: **1.009s**
+
+### PageSpeed Insights:
+Mobile: 80/100, \
+Laptop: 91/100
