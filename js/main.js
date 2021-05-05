@@ -1,22 +1,5 @@
 $(document).ready(function(){
 
-	//Navigation menu scrollTo
-	$('header nav ul li a').click(function(event){
-		event.preventDefault();
-		var section = $(this).attr('href');
-		var section_pos = $(section).position();
-
-		if(section_pos){
-			$(window).scrollTo({top:section_pos.top, left:'0px'}, 1000);
-		}
-		
-	});
-
-	$('.app_link').click(function(e){
-		event.preventDefault();
-		$(window).scrollTo({top:$("#hero").position().top, left:'0px'}, 1000);		
-	});
-
 
 
 
@@ -58,12 +41,6 @@ $(document).ready(function(){
 	$('.hero').parallax("50%", 0.3);
 
 
-
-
-
-
-
-
 	//Nice scroll initialization
 	$("html").niceScroll({
 		scrollspeed: 50,
@@ -75,12 +52,6 @@ $(document).ready(function(){
 		cursorcolor : '#1f1f1f',
 		zindex : 999
 	});
-
-
-
-
-
-
 
 
 	//Testimonials slider initialization
@@ -95,11 +66,6 @@ $(document).ready(function(){
 		autoPlay : true,
 		transitionStyle : "fade"
 	});
-
-
-
-
-
 
 
 	//Mailchimp subscription form initialization
@@ -135,13 +101,6 @@ $(document).ready(function(){
 			$('#mc_submit i').removeClass(hide).addClass(show);
 	}
 
-
-
-
-
-
-
-
 	//Popup video
 	$('#play_video').click(function(e){
 		e.preventDefault();	
@@ -160,8 +119,5 @@ $(document).ready(function(){
 		});
 
 	});
-
-
-
 
 });

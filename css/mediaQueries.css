@@ -1,0 +1,133 @@
+
+/*		Responsive CSS 		*/
+
+@media (max-width: 1023px) {
+    .hero {
+        background-image: url('../img/hero_tablet.jpg');
+    }
+}
+@media (max-width: 767px) {
+
+
+    /*		Header 		*/
+    header .logo{
+        margin-right: 0;
+    }
+
+    header .burger_icon{
+        display: block;
+    }
+
+    header nav{
+        width: 100%;
+        float: none;
+        background: #248888;
+        position: absolute;
+        margin-top: 130px;
+        left: 0;
+        display: none;
+    }
+
+    header nav.show{
+        display: block;
+    }
+
+
+    header nav li{
+        display: block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    header nav li a{
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 1px solid #389965;
+    }
+
+    header nav li:first-child a{
+        border-top: 1px solid #389965;
+    }
+
+    header .social{
+        display: none;
+    }
+
+    header .social li{
+        margin-left: 10px;
+    }
+
+    /*		Hero section 		*/
+    .hero .caption{
+        margin-left: 0;
+    }
+
+    .app_store_btn{
+        display: block;
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+
+    /*		Featured on section		*/
+    .featured_on{
+        padding: 25px 0 5px 0!important;
+    }
+
+    .featured_on ul li{
+        margin-bottom: 25px!important;
+    }
+
+
+    /*		About Section 		*/
+    .about .features_list {
+        text-align: center;
+        margin: 0;
+    }
+
+    .about .features_list ul li{
+        text-indent: 0;
+        background: transparent!important;
+        margin-bottom: 20px;
+    }
+
+    .about .features_list ul li:last-child{
+        margin: 0;
+    }
+
+    a.app_link{
+        display: block;
+        margin-top: 20px;
+    }
+
+
+    /*		Subscription section 		*/
+    .sub_box #mc-email,
+    .sub_box #mc_submit{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .sub_box #mc_submit{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+    .hero {
+        background-image: url('../img/hero_mobile.jpg');
+    }
+}
+
+@media (max-width: 360px) {
+    .featured_on li{
+        display: block;
+        width: 100%;
+    }
+}

@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
-
+	<link rel="stylesheet" type="text/css" href="css/mediaQueries.css" media="(max-width: 1023px)"/>
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/ajaxchimp.js"></script>
@@ -294,6 +294,25 @@
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s"> <strong>Pixelhint</strong>
 	</footer>
 	<!--  End Footer Section  -->
+
+
+	<!--Loading of  secondary styles-->
+	<script type="text/javascript">const loadStylesheet = src => {
+		if(document.createStylesheet) {
+			document.createStylesheet(src)
+		} else {
+			const stylesheet = document.createElement('link');
+			stylesheet.href = src;
+			stylesheet.type = 'text/css';
+			stylesheet.rel = 'stylesheet';
+			document.getElementsByTagName('head')[0].append(stylesheet)
+		}
+	}
+	window.onload = function (){
+		console.log('window done!');
+		loadStylesheet('./css/secondary.css')
+	}
+	</script>
 
 </body>
 </html>

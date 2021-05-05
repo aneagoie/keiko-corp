@@ -1,0 +1,7 @@
+1. optimized images in tinypng and jpeg optimizer (70%, 54%).
+2. made smaller copies of background for tablets and laptops (1023px, 480px)
+3. cut all @keyframes from animate.css except used ones (fadeInLeft fadeInRight, fadeInDown, fadeIn) (73kb to 4kb)
+4. minimized some scripts
+5. moved styles from sections starting second to last to secondary.css and loaded on window load
+6. moved media queries to separate file that loads only on screen width less than 1023
+7. no need in async/defer
