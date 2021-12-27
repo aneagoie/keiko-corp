@@ -38,10 +38,6 @@
 
 
 
-
-
-
-
 section, footer {
 	background: #fffcfc;
 }
@@ -189,10 +185,6 @@ header .social li:first-child{
 
 
 
-
-
-
-
 /*		Hero section 		*/
 
 .hero{
@@ -203,6 +195,16 @@ header .social li:first-child{
 	background: url('../img/hero.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
+
+/* added media attribute */
+
+@media screen and (max-width: 500px) {
+	.hero {
+		background:  url('../img/herosmall.jpg') no-repeat fixed center center;
+		background-size: cover;
+	}
+}
+
 
 .hero .caption{
 	position: absolute;
