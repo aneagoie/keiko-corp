@@ -36,12 +36,6 @@
 
 }
 
-
-
-
-
-
-
 section, footer {
 	background: #fffcfc;
 }
@@ -61,15 +55,6 @@ a:focus{
 .container{
 	max-width: 1130px;
 }
-
-
-
-
-
-
-
-
-
 
 /*		Header 		*/
 
@@ -99,18 +84,18 @@ header {
   /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
 
-header .logo{
+.logo{
 	display: table-cell;
 	margin: 45px 100px 0 0;
 }
 
-header .logo img{
+.logo img{
 	width: 200px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-header .burger_icon{
+.burger_icon{
 	display: none;
 	float: right;
 	background: #ffffff;
@@ -128,11 +113,11 @@ header .burger_icon{
 	margin: 45px 10px 0 0;
 }
 
-header .burger_icon:hover{
+.burger_icon:hover{
 	cursor: pointer;
 }
 
-header .burger_icon.active{
+.burger_icon.active{
 	background: #359663;
 	color: #ffffff;
 }
@@ -173,25 +158,16 @@ header .social{
 	margin-top: 45px;
 }
 
-header .social li{
+.social li{
 	float: left;
 	margin-left: 20px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-header .social li:first-child{
+.social li:first-child{
 	margin: 0;
 }
-
-
-
-
-
-
-
-
-
 
 /*		Hero section 		*/
 
@@ -354,15 +330,6 @@ a.app_link{
   font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Featured on section 		*/
 
 .featured_on{
@@ -384,38 +351,29 @@ a.app_link{
 	margin-left: 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		About section 		*/
 
 .about{
 	padding: 100px 0;
 }
 
-.about .iphone{
+.iphone{
 	max-width: 339px;
 	position: relative;
 	display: inline-block;
 	text-align: center;
 }
 
-.about .iphone img{
+.iphone img{
 	width: 100%;
 	height: auto;
 }
 
-.about .features_list{
+.features_list{
 	margin-left: 50px;
 }
 
-.about .features_list h1{
+.features_list h1{
 	color: #525151;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
@@ -425,7 +383,7 @@ a.app_link{
 	word-break: break-word;
 }
 
-.about .features_list p{
+.features_list p{
 	color: #767272;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -437,7 +395,7 @@ a.app_link{
 	margin-bottom: 30px;
 }
 
-.about .features_list ul li{
+.features_list ul li{
 	display: block;
 	position: relative;
 	color: #6c6c6c;
@@ -452,43 +410,34 @@ a.app_link{
 	-webkit-transition: all .2s linear;
 }
 
-.about .features_list ul li.camera_icon{
+.features_list ul li.camera_icon{
 	background: url('../img/icon1.png') no-repeat;
 	background-position: 0 15px;
 }
 
-.about .features_list ul li.video_icon{
+.features_list ul li.video_icon{
 	background: url('../img/icon2.png') no-repeat;
 	background-position: 0 15px;
 }
 
-.about .features_list ul li.eye_icon{
+.features_list ul li.eye_icon{
 	background: url('../img/icon3.png') no-repeat;
 	background-position: 0 14px;
 }
 
-.about .features_list ul li.pic_icon{
+.features_list ul li.pic_icon{
 	background: url('../img/icon4.png') no-repeat;
 	background-position: 0 14px;
 }
 
-.about .features_list ul li.loc_icon{
+.features_list ul li.loc_icon{
 	background: url('../img/icon5.png') no-repeat;
 	background-position: 3px 13px;
 }
 
-.about .features_list ul li span{
+.features_list ul li span{
 	display: inline-block;
 }
-
-
-
-
-
-
-
-
-
 
 /*		App features 		*/
 
@@ -519,22 +468,13 @@ a.app_link{
 	line-height: 28px;
 }
 
-.app_features .details{
+.details{
 	margin-bottom: 80px;
 }
 
-.app_features .details:nth-child(3n+1){
+.details:nth-child(3n+1){
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
 
 /*		Testimonials section 		*/
 
@@ -542,18 +482,18 @@ a.app_link{
 	padding: 100px 0;
 }
 
-.testimonials .testimonials_list{
+.testimonials_list{
 	max-width: 820px;
 	margin: 0 auto;
 }
 
-.testimonials .testimonials_list blockquote{
+blockquote{
 	border: 0;
 	padding: 0;
 	margin: 0;
 }
 
-.testimonials .testimonials_list blockquote p{
+blockquote p{
 	color: #757171;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -561,30 +501,30 @@ a.app_link{
 	line-height: 36px;
 }
 
-.testimonials .testimonials_list blockquote footer:before,
-.testimonials .testimonials_list blockquote footer:after{
+blockquote footer:before,
+blockquote footer:after{
 	content: none;
 }
 
-.testimonials .testimonials_list blockquote .author,
-.testimonials .testimonials_list blockquote .job{
+blockquote .author,
+blockquote .job{
 	display: block;
 }
 
-.testimonials .testimonials_list blockquote .author{
+blockquote .author{
 	color: #4b4848;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
 
-.testimonials .testimonials_list blockquote .job{
+blockquote .job{
 	color: #6e6d6d;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 }
 
-.#tslider{
+#tslider{
 	text-align: center!important;
 	position: relative!important;
 }
@@ -633,15 +573,6 @@ a.app_link{
 	background-position: -33px 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Subscription section 		*/
 
 .sub_box{
@@ -654,14 +585,14 @@ a.app_link{
 	background-image: linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
-.sub_box .cta_text{
+.cta_text{
 	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	margin-bottom: 50px;
 }
 
-.sub_box #mc-email{
+#mc-email{
 	display: inline-block;
 	width: 300px;
 	height: 50px;
@@ -688,7 +619,7 @@ a.app_link{
 
 }
 
-.sub_box #mc_submit{
+#mc_submit{
 	display: inline-block;
 	width: 60px;
 	height: 50px;
@@ -711,7 +642,7 @@ a.app_link{
 	vertical-align: middle;
 }
 
-.sub_box #mc_submit i{
+#mc_submit i{
 	display: inline-block;
 	width: 20px;
 	height: 14px;
@@ -726,7 +657,7 @@ a.app_link{
 	background: url('../img/loading.gif') no-repeat;
 }
 
-.sub_box .message{
+.message{
 	display: block;
 	text-align: center;
 	color: #fff;
@@ -736,19 +667,10 @@ a.app_link{
 	margin-top: 20px;
 }
 
-.sub_box #error_msg,
-.sub_box #success_msg{
+#error_msg,
+#success_msg{
 	display: none;
 }
-
-
-
-
-
-
-
-
-
 
 /*		Footer 		*/
 
@@ -757,15 +679,15 @@ footer{
 	text-align: center;
 }
 
-footer .app_platform li{
+.app_platform li{
 	margin: 0 0 0 60px;
 }
 
-footer .app_platform li:first-child{
+.app_platform li:first-child{
 	margin: 0;
 }
 
-footer .copyright{
+.copyright{
 	margin-top: 60px;
 	color: #757171;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
@@ -773,17 +695,9 @@ footer .copyright{
 	letter-spacing: .5px;
 }
 
-footer .copyright a{
+.copyright a{
 	color: #565555;
 }
-
-
-
-
-
-
-
-
 
 /*		Responsive CSS 		*/
 
@@ -795,7 +709,6 @@ footer .copyright a{
 }
 
 @media (max-width: 767px) {
-
 
 	/*		Header 		*/
 	header .logo{
@@ -820,7 +733,6 @@ footer .copyright a{
 		display: block;
 	}
 
-
 	header nav li{
 		display: block;
 		width: 100%;
@@ -839,18 +751,13 @@ footer .copyright a{
 		border-top: 1px solid #389965;
 	}
 
-	header .social{
+	.social{
 		display: none;
 	}
 
-	header .social li{
+	.social li{
 		margin-left: 10px;
 	}
-
-
-
-
-
 
 	/*		Hero section 		*/
 	.hero .caption{
@@ -865,10 +772,6 @@ footer .copyright a{
 		text-align: center;
 	}
 
-
-
-
-
 	/*		Featured on section		*/
 	.featured_on{
 		padding: 25px 0 5px 0!important;
@@ -878,24 +781,19 @@ footer .copyright a{
 		margin-bottom: 25px!important;
 	}
 
-
-
-
-
-
 	/*		About Section 		*/
-	.about .features_list {
+    .features_list {
 		text-align: center;
 		margin: 0;
 	}
 
-	.about .features_list ul li{
+    .features_list ul li{
 		text-indent: 0;
 		background: transparent!important;
 		margin-bottom: 20px;
 	}
 
-	.about .features_list ul li:last-child{
+    .features_list ul li:last-child{
 		margin: 0;
 	}
 
@@ -904,14 +802,8 @@ footer .copyright a{
 		margin-top: 20px;
 	}
 
-
-
-
-
-
 	/*		Subscription section 		*/
-	.sub_box #mc-email,
-	.sub_box #mc_submit{
+	#mc_submit{
 		display: block;
 		width: 90%;
 		margin: 0 auto;
