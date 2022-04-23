@@ -7,7 +7,7 @@ The greatest company ever created by Bruno
 - [ ] compress images
 - [x] remove render blocking scripts
 - [ ] remove unnecessary items
-- [ ] purge css
-- [ ] minify js
+- [x] purge css
+- [x] minify js
 - [ ] minify css
 - [ ] Icons -> Svg
