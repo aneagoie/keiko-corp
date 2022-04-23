@@ -10,3 +10,4 @@ The greatest company ever created by Bruno
 - [ ] purge css
 - [ ] minify js
 - [ ] minify css
+- [ ] Icons -> Svg
