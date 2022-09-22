@@ -16,6 +16,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		$(window).scrollTo({top:$("#hero").position().top, left:'0px'}, 1000);		
 	});
+	
 
 
 
