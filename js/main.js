@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 
 	$('.app_link').click(function(e){
-		event.preventDefault();
+		e.preventDefault();
 		$(window).scrollTo({top:$("#hero").position().top, left:'0px'}, 1000);		
 	});
 	
