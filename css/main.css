@@ -799,6 +799,9 @@ footer .copyright a{
 @media (max-width: 767px) {
 
 
+	.hero{
+		background: url('../img/hero-medium.jpg') no-repeat fixed center center;
+	}
 	/*		Header 		*/
 	header .logo{
 		margin-right: 0;
@@ -855,11 +858,6 @@ footer .copyright a{
 
 
 	/*		Hero section 		*/
-	
-	.hero{
-		background: url('../img/hero-medium.jpg') no-repeat fixed center center;
-	}
-
 	.hero .caption{
 		margin-left: 0;
 	}
