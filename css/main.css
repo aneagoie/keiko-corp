@@ -787,18 +787,16 @@ footer .copyright a{
 /*		Responsive CSS 		*/
 
 @media (max-width: 360px) {
+	.hero{
+		background: url('../img/hero-small.jpg') no-repeat fixed center center;
+	}
 	.featured_on li{
 		display: block;
 		width: 100%;
 	}
-	.hero{
-		background: url('../img/hero-small.jpg') no-repeat fixed center center;
-	}
 }
 
 @media (max-width: 767px) {
-
-
 	.hero{
 		background: url('../img/hero-medium.jpg') no-repeat fixed center center;
 	}
