@@ -8,6 +8,7 @@
          url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
@@ -19,7 +20,7 @@
          url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
+	font-display: swap;
 }
 
 
@@ -32,7 +33,7 @@
          url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
-
+	font-display: swap;
 }
 
 
@@ -852,6 +853,10 @@ footer .copyright a{
 
 
 	/*		Hero section 		*/
+	.hero{
+		background: url('../img/mini-jpeg-optimizer_hero.jpg') no-repeat fixed center center;
+	}
+
 	.hero .caption{
 		margin-left: 0;
 	}
