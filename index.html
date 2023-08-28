@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/> -->
 	<link rel="stylesheet" type="text/css" href="css/owl.transitions.css"/>
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
@@ -284,6 +284,28 @@
 	</footer>
 	<!--  End Footer Section  -->
 
+	<!-- Scripts -->
+	<script>
+		const loadStyleSheet = (src) => {
+			if (document.createStyleSheet) {
+				document.createStyleSheet(src);
+			} else {
+				const stylesheet = document.createElement('link');
+				stylesheet.href = src;
+				stylesheet.type = 'text/css';
+				stylesheet.rel = 'stylesheet';
+
+				const head = document.getElementsByTagName('head')[0];
+				head.appendChild(stylesheet);
+			}
+		};
+
+		window.onload = function () {
+			// console.log('loading bootstrap stylesheet');
+			loadStyleSheet('css/bootstrap.css');
+		}
+
+	</script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/ajaxchimp.js"></script>
 
