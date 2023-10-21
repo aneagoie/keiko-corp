@@ -116,7 +116,7 @@ header .burger_icon{
 	padding: 5px 10px;
 	text-transform: uppercase;
 
-	color: #43b779;
+	color: #1fb464;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 
@@ -368,6 +368,7 @@ a.app_link{
 	width: 100%;
 	padding: 25px 0;
 	background: #f3f3f3;
+	color: #444444;
 }
 
 .featured_on ul{
@@ -669,7 +670,7 @@ a.app_link{
 	border: 0;
 	outline: none;
 	margin-right: -4px;
-	color: #41c17d;
+	color: #000000;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	vertical-align: middle;
