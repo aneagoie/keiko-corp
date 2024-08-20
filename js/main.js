@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	//Navigation menu scrollTo
+	//Navigation menu scrollTo 
 	$('header nav ul li a').click(function(event){
 		event.preventDefault();
 		var section = $(this).attr('href');
