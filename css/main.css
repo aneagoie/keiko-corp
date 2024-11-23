@@ -98,18 +98,18 @@ header {
   /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
 
-header .logo{
+ .logo{
 	display: table-cell;
 	margin: 45px 100px 0 0;
 }
 
-header .logo img{
+ .logo img{
 	width: 200px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-header .burger_icon{
+.burger_icon{
 	display: none;
 	float: right;
 	background: #ffffff;
@@ -127,30 +127,30 @@ header .burger_icon{
 	margin: 45px 10px 0 0;
 }
 
-header .burger_icon:hover{
+.burger_icon:hover{
 	cursor: pointer;
 }
 
-header .burger_icon.active{
+.burger_icon.active{
 	background: #359663;
 	color: #ffffff;
 }
 
-header nav{
+nav{
 	margin-top: 50px;
 	display: table-cell;
 }
 
-header nav li{
+nav li{
 	float: left;
 	margin-left: 40px;
 }
 
-header nav li:first-child{
+nav li:first-child{
 	margin: 0;
 }
 
-header nav li a{
+nav li a{
 	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -161,25 +161,25 @@ header nav li a{
 	-webkit-transition: all .2s linear;
 }
 
-header nav li a:hover,
-header nav li a:focus{
+nav li a:hover,
+nav li a:focus{
 	text-decoration: none;
 	color: #B7EFD1!important;
 }
 
-header .social{
+.social{
 	display: table-cell;
 	margin-top: 45px;
 }
 
-header .social li{
+.social li{
 	float: left;
 	margin-left: 20px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-header .social li:first-child{
+.social li:first-child{
 	margin: 0;
 }
 
